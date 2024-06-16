@@ -1,0 +1,67 @@
+.circle-photo{
+  border-radius: 50%;
+  width: 100px; /* Ajusta el tamaño de la foto */
+  height: 100px;
+}
+
+#sidebar{
+  background: hsl(0, 100%, 2%);
+  height: 100%;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+@media (min-width:768px) {
+  #sidebar{
+    position: fixed;
+  }
+}
+
+@media (max-width:768px) {
+  #sidebar{
+    position: none;
+  }
+}
+
+#sidebar h1, #sidebar h2{
+  color: #fff;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.btn-social{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos personalizados para los botones sociales */
+.btn-social {
+  font-size: 10px;
+  padding: 12px 24px;
+  border-radius: 10px;
+}
+
+.btn-social.facebook {
+  background-color: #e1e8f8; /* Color de Facebook */
+  color: #d75151;
+  border-color: rgba(226, 18, 18, 0.841);
+}
+
+.btn-social.twitter {
+  background-color: #1da1f2; /* Color de Twitter */
+  color: #fff;
+  border-color: rgba(226, 18, 18, 0.841);
+}
+
+.btn-social.google {
+  background-color: #1da1f2; /* Color de Twitter */
+  color: #fff;
+  border-color: rgba(226, 18, 18, 0.841);
+}
+
+/* Agregar estilos adicionales para otros botones si es necesario */
+
+
+

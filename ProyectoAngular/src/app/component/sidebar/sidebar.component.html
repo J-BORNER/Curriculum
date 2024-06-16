@@ -1,0 +1,14 @@
+<div id="sidebar" class="col-md-3">
+  <img class="img-responsive center-block circle-photo" src="../../assets/img/ProyecA.jpg" alt="Otra Imagen">
+
+  <h1>curriculum</h1>
+  <h2>brian rocael mendez lima</h2>
+
+  <a *ngFor="let sn of social_networks" class="btn btn-block btn-social btn-{{sn.icon}}" [href]="sn.link" target="_blank">
+    <span class="fab fa-{{sn.icon}}"></span> {{sn.name}}
+  </a>
+
+</div>
+
+
+

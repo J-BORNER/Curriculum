@@ -1,0 +1,23 @@
+.col-md-3, .col-sm-12{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media (min-width:768px) {
+  .col-md-3{
+    padding-left: 25%;
+  }
+}
+
+@media (max-width:768px) {
+  .col-md-3{
+    padding-left: 0%;
+    position: static;
+  }
+
+
+.offcanvas {
+  width: 100;
+  max-width: 300px;
+}
+}

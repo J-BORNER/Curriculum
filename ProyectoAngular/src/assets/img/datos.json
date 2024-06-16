@@ -1,0 +1,94 @@
+{
+"datos_personales": [
+  {
+      "column_Display": "label.name",
+      "column_Value": "Fernando"
+  },
+  {
+      "columnDisplay": "label.surname",
+      "columnValue": "Ureña Gómez"
+  },
+  {
+      "columnDisplay": "label.birthdate",
+      "columnValue": "05/02/1990"
+  },
+  {
+      "columnDisplay": "label.email",
+      "columnValue": "fernando.ureña.gomez@gmail.com"
+  },
+  {
+      "columnDisplay": "label.nationality",
+      "columnValue": "label.nationality.value"
+  },
+  {
+      "columnDisplay": "label.type.carnet",
+      "columnValue": "label.type.carnet.value"
+  },
+  {
+      "columnDisplay": "label.own.vehicule",
+      "columnValue": "label.yes"
+  },
+  {
+      "columnDisplay": "label.availability.travel",
+      "columnValue": "label.yes"
+  }
+],
+"studies": [
+  {
+      "range": "2016-2017",
+      "place": "IES Maestre de Calatrava, Ciudad Real",
+      "title": "Técnico en desarrollo de aplicaciones web (e-learning)",
+      "note": "9"
+  },
+  {
+      "range": "2012-2014",
+      "place": "IES Maestre de Calatrava, Ciudad Real",
+      "title": "Técnico en desarrollo de aplicaciones multiplataforma",
+      "note": "9.64"
+  },
+  {
+      "range": "2010-2012",
+      "place": "IES Maestre de Calatrava, Ciudad Real",
+      "title": "Técnico en Microsistemas Informáticos y Redes",
+      "note": "9.31"
+  }
+],
+"courses": [
+  {
+      "year": "2018",
+      "name": "Lua Programming and Game Development with LÖVE",
+      "place": "Udemy",
+      "hours": "5.5",
+      "type": "label.type.online"
+  },
+  {
+      "year": "2018",
+      "name": "Bootstrap 4: El Curso Completo, Práctico y Desde Cero",
+      "place": "Udemy",
+      "hours": "19",
+      "type": "label.type.online"
+  },
+  {
+      "year": "2012",
+      "name": "Community manager",
+      "place": "Universidad Deusto",
+      "hours": "300",
+      "type": "label.type.online"
+  },
+  {
+      "year": "2011",
+      "name": "Cisco Information Technology Essentials: Hardware and Software",
+      "place": "IES Maestre de Calatrava",
+      "hours": "20",
+      "type": "label.type.presential"
+  },
+  {
+      "year": "2011",
+      "name": "Diseño de páginas web",
+      "place": "Universidad Deusto",
+      "hours": "250",
+      "type": "label.type.online"
+  }
+]
+}
+
